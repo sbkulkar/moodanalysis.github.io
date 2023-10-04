@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+  background-color:white; /* Green background color */
+  color: white; /* White text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 40px 40px lime; /* Center the text inside the container */
+  background-color:green;
+}
+
+/* Style the headings */
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 200;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the questions and buttons */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  background-color:#58cc02; /* Blue button background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 100px;
+  width: 200px;
+  box-shadow: 0 5px 0 #58cc02;
+}
+button:active{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+/* Center the buttons horizontally */
+ul li button {
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover {
+  background-color:red; /* Darker blue on hover */
+
+}
+.q2,.q3,.q4
+{ 
+  visibility: hidden;
+}
+/* Style the buttons with unique IDs */
